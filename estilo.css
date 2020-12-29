@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+}
+header{
+    z-index: 100;
+    width: 100%;
+    height: 70px;
+   background: aliceblue;
+    position: fixed;
+    -webkit-box-shadow: 4px 10px 5px -2px rgba(0,0,0,0.32);
+    -moz-box-shadow: 4px 10px 5px -2px rgba(0,0,0,0.32);
+    box-shadow: 4px 10px 5px -2px rgba(0,0,0,0.32);
+}
+.logo img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 90px;
+    padding: 10px 20px 15px 20px;
+    margin-left: 150px;
+}
+.menu{
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 180px;
+    font-weight: 900;
+}
+.menu ul{
+    list-style: none;
+    margin-left: 130px;
+    padding: 0px;
+}
+.menu li{
+    list-style: none;
+    float: left;
+}
+.menu a{
+    margin-left: 20px;
+    line-height: 70px;
+    text-align: right;
+    text-decoration: none;
+    color: blueviolet;
+}
+.menu a:hover{
+    color: deeppink;
+}
+.menu i{
+    margin-top: 25px;
+    margin-left: 20px;
+    size: 30px;
+    color: crimson;
+}
+.slider{
+    z-index: 10;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 810px;
+    background: blueviolet;
+    text-align: center;
+    padding-top: 320px;
+}
+.efecto-ola{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.titulo{
+    font-size: 84px;
+    font-weight: 700;
+    color:aliceblue;
+}
+.titulo2{
+    font-size: 44px;
+    font-weight: 700;
+    color: aliceblue;
+    margin-bottom: 100px;
+}
+.button a{
+    text-decoration: none;
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 11px;
+    margin: auto;
+    text-transform: uppercase;
+}
+.button a:hover{
+    background-color: darkslategrey;
+}
+
+.servicios{
+    z-index: 10;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    width: 100%;
+    height: 810;
+
+}
+.img-servicios{
+    width: 400px;
+    height: 200px;
+    padding-bottom: 10px;
+    
+}
+.parallax{
+    width: 100%;
+    height: 100vh;
+    background: url(Imagenes/fondo.jfif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: calc(50vh - 50px);
+    text-align: center;
+}
+.parallax-h2{
+    color: white;
+    width: 40px;
+    height: 80px;
+    display: inline;
+    margin: auto;
+    line-height: 50px;
+    font-size: 40px;
+}
+.footer{
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    background: coral;
+    height: 60px;
+    line-height: 60px;
+}
